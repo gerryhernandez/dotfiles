@@ -49,10 +49,7 @@ export GOPATH="/home/ghernandez/go"
 export PATH="$GOPATH/bin:$PATH"
 
 . /home/ghernandez/.bash_prompt
-
-alias ovgig="cd /home/ghernandez/go/src/github.com/omnivore/giganto"
-alias ovdev "cd /home/ghernandez/dev"
-
+. /home/ghernandez/.bash_additional_rc
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

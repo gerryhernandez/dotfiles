@@ -5,9 +5,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias ls='ls -AlF --color=auto'
-alias l='ls'
-alias v='vim'
-alias tf='tail -f'
+alias vi='vim'
 if command -v ack-grep >/dev/null; then
   alias ack='ack-grep'
 fi
