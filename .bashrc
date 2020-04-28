@@ -45,3 +45,15 @@ PATH=$PATH:$HOME/.bin
 
 export EDITOR=vim
 
+export GOPATH="/home/ghernandez/go"
+export PATH="$GOPATH/bin:$PATH"
+
+. /home/ghernandez/.bash_prompt
+
+alias ovgig="cd /home/ghernandez/go/src/github.com/omnivore/giganto"
+alias ovdev "cd /home/ghernandez/dev"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
